@@ -5,7 +5,8 @@ function Navbar() {
     <header className="header">
       <nav className="navbar">
         <ul className="left">
-<a href="#about">HOME</a><a href="#menu">MENU</a>
+          <li><a href="#about">HOME</a></li>
+          <li><a href="#menu">MENU</a></li>
         </ul>
 
         <div className="logo">

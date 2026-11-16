@@ -15,11 +15,11 @@ body{
 
 .left, .right {
     display: flex;
+    align-items: center;
     list-style: none;
-    gap: 200px;
+    gap: 40px;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 .navbar a{
   font-family: "Dancing Script", cursive;
@@ -427,4 +427,23 @@ justify-content:space-between;
   .menu-image {
     height: 250px;
   }
+}
+@media (max-width: 600px) {
+    .navbar {
+        gap: 10px;
+        padding: 15px 10px;
+    }
+
+    .left, .right {
+        gap: 10px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        padding: 8px 6px;
+    }
+
+    .logo img {
+        width: 65px;
+    }
 }
